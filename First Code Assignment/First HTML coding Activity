@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML site</title>
+</head>
+   <h1 style="text-align: center; color: brown;">World Wide Web</h1>
+   <h2 style="text-align: center; color: brown;">The WorldWideWeb (W3) is a wide-area <a href="hypermedia.html">hypermedia</a>information retrieval initiative aiming to give universal access to a large universe of documents. </h2>
+
+   <div style="text-align: center;">
+       
+    <p>
+        <p style="color:brown">Everything there is online about W3 is linked directly or indirectly to this document, including an:</p>
+   
+         <a href="executive.html">EXECUTIVE SUMMARY</a>, <a href="mailing.html">MAILING LIST</a>, <a href="policy.html">POLICY</a>
+         <a href="w3news.html">NOVEMBER W3 NEWS</a>, <a href="faq.html">FREQUENTLY ASKED QUESTIONS</a>
+      </p>
+      <div>
+         <h2>What is out there?</h2>
+             <a href="general.html">General Overview</a>
+             <a href="w3server.html">W3 Server</a>
+             <p>
+                <a href="help.html">Need Help? click the icon<img src="mypics.png" alt="help" style="width: 100px; height: 100px; border-radius: 100px;"></a>
+             
+                <a href="software.html">Lets Talk about Software Products<img src="support2.jpg" alt="help" style="width: 100px; height: 100px; border-radius: 100px;"></a>
+
+            <p>
+                <a href="technical.html"> Technical Assistance<img src="technical.jpg" alt="help" style="width: 100px; height: 100px; border-radius: 100px;"></a>   
+
+                <a href="bibliography.html"> Bibliography<img src="coding.png" alt="help" style="width: 100px; height: 100px; border-radius: 100px;"></a>
+
+                <div>
+                    <p> More? Click Options below: </p>
+
+                <a href="people.html"> People</a>
+                <p>
+                <a href="hitory.html">History</a> 
+                </p>
+                <a href="help.html">How can I help?</a>
+                <a href="executive.html">Getting Code</a>
+                </div>
+                
+                <style>
+                    body {
+
+                         background-color: blanchedalmond;
+                    }
+                </style>
+                
+            </p>
+            
+             </p>
+
+             
+             
+              
+       
+      </div>
+
+   </div>
+
+   
+   
+<body>
+    
+</body>
+</html>
