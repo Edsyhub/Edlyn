@@ -1,0 +1,90 @@
+/*universal selector*/
+* {
+    font-family: 'lobster', cursive;
+
+}
+
+h1 {
+    color: brown;
+}
+
+/*ID selector*/
+
+#title-1 {
+    color: #FF5733; 
+}
+
+
+/*Class Selector*/
+
+.Title-2 {
+    color: violet;
+    text-align: center;
+    
+    
+}
+
+/*Attribute Selector*/
+
+[type="text"] {
+    background-color: aquamarine
+}
+
+/*Combinator Selector*/
+
+/*Descendant 
+- select/targets "all elements" that matches the specified element
+
+syntax: first element child element {
+    property: value
+}
+*/
+/* 
+div p {
+    background-color: red;
+}
+
+div > p {
+    background-color: chocolate
+} */
+
+/* p + p {
+    background-color: maroon;
+} */
+
+/* div + p {
+    background-color: #E6FF33;
+} */
+/* general sibling selector*/
+
+/* medium devices (lanscape table, 768 px and up) */
+
+@media only screen and (min-width: 500px) {
+    .screen {background-color: pink;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .screen {background-color: blue;}
+}
+
+/* Pseudo Class
+selector: pseudo-class {property:value} */
+
+/*unlisted link*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color:green;
+}
+
+/*mouse over link*/
+a:hover {
+    color: orange;
+}
+
+a:active {
+   color: dodgerblue;
+}
